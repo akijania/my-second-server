@@ -12,7 +12,6 @@ app.use((req, res, next) => {
 
 app.use('/user', (req, res, next) => {
   res.send('You need to log in!');
-  next();
 });
 
 app.get('/', (req, res) => {
